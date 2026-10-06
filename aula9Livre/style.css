@@ -1,0 +1,87 @@
+
+        h1 {
+            font-family: Papyrus, fantasy;
+            font-size: 36px;
+            background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff); 
+        }
+        header {
+            background: linear-gradient(to left, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #ffffff;
+        }
+        header p {
+            color: #0f0f0f;
+            font-size: 18px;
+        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:#f4f4f4;
+    color:#333;
+      background-image: url("DND_Art7.jpg");
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+main h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: #8b3684;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Classe .card serve de base para todos os cards, definindo o estilo geral e a aparência */
+.card {
+    background-color: #fff3e0;
+    border: 2px solid #FF4500;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+}
+
+#especial {
+   background: linear-gradient(to left, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+    color: #fff;
+    border: none;
+    text-align: center;
+
+
+    animation: pulsar 2s infinite;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.gelo {
+    border-color: #4169E1;
+    background-color: #e0f7fa;
+}
+
+.veneno {
+    border-color: #7B1FA2;
+    background-color: #e8f5e9;
+    opacity: 0.5;
+}
+
+.veneno h4 {
+text-decoration: line-through;
+}
